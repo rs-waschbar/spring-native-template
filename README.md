@@ -12,6 +12,7 @@ then run
 ```
 
 it creates a "native" package with function.zip, for the amazonlinux
+
 that can be uploaded to S3 bucket and then deployed to the native lambda
 
 ## Getting started - native local image
