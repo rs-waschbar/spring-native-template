@@ -29,7 +29,7 @@ Native Image has partial support for the reflection
 
 Resources and Reflection classes should be registered in
 [RuntimeHints.java](src/main/java/com/example/demo/config/RuntimeHints.java)
-as a runtime hints - [Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.advanced.custom-hints) (I think that should solve reflection issue)
+as a runtime hints - [Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.advanced.custom-hints)
 
 or as a json registered file
 [GraalVM documentation](https://www.graalvm.org/jdk17/reference-manual/native-image/dynamic-features/Reflection/)
